@@ -1,0 +1,53 @@
+using Day_1.math;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day_1
+{
+    public class person
+    {
+        public string firstname;
+        public string lastname;
+        public void intro()
+        {
+            Console.WriteLine("My name is " + firstname + " " + lastname);
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            person male = new person();
+            male.firstname = "Anindo";
+            male.lastname = "Roy";
+            male.intro();
+
+            var result =calculator.Add(13, 27);
+            Console.WriteLine(result);
+        }
+    }
+}
+....................................................
+dan pas a program.cs theke dan button click kore new
+ folder korte hobe....abon folder theke calculator nam a akta class create korte hobe.
+.................................................................
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day_1.math
+{
+    public class calculator
+    {
+        public static int Add(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+    }
+}
+ 
