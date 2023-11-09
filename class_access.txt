@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day_1
+{
+    public class person
+    {
+        public string firstname;
+        public string lastname;
+        public void intro()
+        {
+            Console.WriteLine("My name is " + firstname + " " + lastname);
+        }
+    }
+        internal class Program
+    {
+        static void Main(string[] args)
+        {
+            person male = new person();
+            male.firstname = "Anindo";
+            male.lastname = "Roy";
+            male.intro();
+        }
+    }
+}
