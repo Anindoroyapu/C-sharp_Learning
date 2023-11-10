@@ -1,0 +1,33 @@
+using Day_1.math;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //string[] cars = { "BMW", "VOLBO", "FORD" };
+            //cars[0] = "TOYOTA";
+            //Console.WriteLine(cars[0]);
+
+            //int[] numbers = { 23, 16, 58, 100 };
+            //Console.WriteLine(numbers[0]);
+
+            string firstname = "Anindo ";
+            string lastname = "Roy";
+
+            string fullname = string.Concat(firstname,lastname);
+;
+            Console.WriteLine(fullname);
+            Console.WriteLine(firstname.IndexOf("d"));
+            Console.WriteLine(firstname[4]);
+
+        }
+    }
+}
+
