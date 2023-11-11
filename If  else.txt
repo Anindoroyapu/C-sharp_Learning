@@ -18,3 +18,40 @@ class Program
             Console.WriteLine(output);
         }
     }
+..................................
+static void Main(string[] args)
+        {
+            int age = 18;
+            if(age <= 17)
+            {
+                Console.WriteLine("kid");
+
+            }
+            else if (age >= 18 && age<=50)
+            {
+                Console.WriteLine("young");
+            }
+            else
+            {
+                Console.WriteLine("You are an old man");
+            }
+
+            
+            
+            
+            //evan odd
+            int number = 15;
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("Even number");
+            }
+            else
+            {
+                Console.WriteLine("odd number");
+            }
+
+            //condition Oparetor
+
+            var output = (number % 2 == 0) ? "Even" :"Odd";
+            Console.WriteLine(output);
+        }
