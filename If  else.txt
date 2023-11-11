@@ -1,0 +1,20 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = 15;
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("Even number");
+            }
+            else
+            {
+                Console.WriteLine("odd number");
+            }
+
+            //condition Oparetor
+
+            var output = (number % 2 == 0) ? "Even" :"Odd";
+            Console.WriteLine(output);
+        }
+    }
