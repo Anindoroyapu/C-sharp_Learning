@@ -1,0 +1,8 @@
+//do while loop
+            var y = 30;
+            do
+            {
+                Console.WriteLine(y);
+                y++;
+            }
+            while (y <=40);
