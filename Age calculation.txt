@@ -1,0 +1,11 @@
+static void Main(string[] args)
+        {
+            age(2023, 2003);
+            Console.ReadLine(); 
+        }
+        public static void age(int currentYear, int DateOfBirth)
+        {
+            Console.WriteLine(currentYear - DateOfBirth);
+
+            
+        }
