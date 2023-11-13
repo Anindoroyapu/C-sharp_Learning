@@ -1,0 +1,6 @@
+//for each loop
+            int[] numbers = { 1, 5, 55, 25, 15, 85 };
+            foreach (int number in numbers)
+            { 
+                Console.WriteLine(number);  
+            }
