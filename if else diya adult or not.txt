@@ -1,0 +1,19 @@
+static void Main(string[] args)
+        {
+            int Myage = age(2022, 2004);
+            if (Myage > 18)
+            {
+                Console.WriteLine("Adult");
+            }
+            else
+            {
+                Console.WriteLine("not adult");
+
+                Console.ReadLine();
+            }
+           
+        }
+        public  static int age(int currentage,int dateOfBirth)
+        {
+            return currentage - dateOfBirth;
+        }
