@@ -1,0 +1,21 @@
+namespace day14
+{
+    class Animal
+    {
+        string name = "Amit";
+        int age = 60;
+        public void printDetails()
+        {
+            Console.WriteLine("Name  " + name + ",     Age  " + age+ "voice  "+ voice);
+        }
+        //public //private
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Animal dog = new Animal();
+            dog.printDetails();
+        }
+    }
+}
