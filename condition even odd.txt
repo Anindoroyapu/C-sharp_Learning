@@ -1,4 +1,4 @@
 condition Oparetor
 
-            var output = (number % 2 == 0)  Even Odd;
+            var output = (number % 2 == 0) ? "Even" :"Odd";
             Console.WriteLine(output);
