@@ -1,21 +1,30 @@
-namespace day14
+namespace Day_16
 {
     class Animal
     {
-        string name = "Amit";
-        int age = 60;
-        public void printDetails()
+        public string name = "Amit";
+        public int age = 6;
+        public string voice = "Ghew";
+
+        public void printdetails()
         {
-            Console.WriteLine("Name  " + name + ",     Age  " + age+ "voice  "+ voice);
+            Console.WriteLine("name:" + name + " " + "age" + age + "voice " + voice);
         }
-        //public //private
+        //static //class constructor
     }
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             Animal dog = new Animal();
-            dog.printDetails();
+            dog.printdetails();
+
+            Animal cat = new Animal();
+            cat.name = "jerry";
+            cat.age = 8;
+            cat.voice = "Meww";
+            cat.printdetails();
+
         }
     }
 }
