@@ -1,0 +1,37 @@
+namespace Day_16
+{
+    class Animal
+    {
+        public string name ;
+        public int age ;
+        public string voice ;
+        public static int animalCount = 0;
+
+        public void printdetails()
+        {
+            Console.WriteLine("name:" + name + " " + "age" + age + "voice " + voice);
+        }
+        public Animal(string _name, int _age, string _voice)
+        {
+           name = _name;
+            age = _age;
+            voice = _voice;
+            animalCount++;
+        }
+
+        //static //class constructor
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Animal dog = new Animal("audi",3,"ghew");
+            dog.printdetails();
+            Console.WriteLine();
+            Animal cat = new Animal("mini",4,"meww");
+            cat.printdetails();
+            Console.WriteLine() ;
+            Console.WriteLine("Number of animal: "+Animal.animalCount) ;
+        }
+    }
+}
