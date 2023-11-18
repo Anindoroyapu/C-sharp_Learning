@@ -1,0 +1,13 @@
+namespace Day_16
+{
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DateTime currentTime = DateTime.Now;
+            Console.WriteLine(currentTime);
+            Console.ReadKey();   
+        }
+    }
+}
