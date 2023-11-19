@@ -1,0 +1,23 @@
+namespace ConsoleApp1
+{
+    class Income
+    {
+        public int income = 45000;
+        public void Debit(int moneySpent)
+        {
+            income =income-moneySpent;  
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Income amountLeft = new Income();
+
+            amountLeft.Debit(25000);
+
+            Console.WriteLine(amountLeft.income);
+            Console.ReadKey();
+        }
+    }
+}
